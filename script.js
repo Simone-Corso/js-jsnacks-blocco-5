@@ -18,16 +18,24 @@ const listaPersone = [
         age: '90',
     },
 
-{
-    name: 'Jonny',
-    lastname: 'bar',
-    age: '78',
+   {
+       name: 'Jonny',
+       lastname: 'bar',
+       age: '78',
 },
 
-{
-    name: 'Goku',
-    lastname: 'potenza',
-    age: '23',
-},
+    {
+        name: 'Goku',
+        lastname: 'potenza',
+        age: '23',
+    },
 
 ];
+
+const listaPersone = [listaPersone];
+const lista = listaPersone.map((listaPersone) =>{
+    return listaPersone * listaPersone;
+
+});
+
+console.log(lista);
