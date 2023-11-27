@@ -10,12 +10,12 @@ const ListaPersone = [
     {
         name: 'Simone',
         lastname: 'gino',
-        age: '54',
+        age: '17',
     },
     {
         name: 'Federico',
         lastname: 'rico',
-        age: '90',
+        age: '15',
     },
 
    {
@@ -34,8 +34,9 @@ const ListaPersone = [
 
 const listaPersone = [ListaPersone];
 const lista = listaPersone.map((listaPersone) =>{
-    return listaPersone * listaPersone;
+    return listaPersone < 18 ;
 
 });
+console.log(listaPersone);
 
 console.log(lista);
