@@ -46,3 +46,24 @@ const carDiesel = [ {
     alimentazione: 'diesel',
 }
 ];
+
+const carElettrico = [ {
+    car: 'volkswagen', 
+    modello: 'tiguan',
+    alimentazione: 'elettrico',
+
+},
+
+{
+    car: 'ford', 
+    modello: 'fiesta',
+    alimentazione: 'elettrico',
+},
+
+{
+    car: 'nissan', 
+    modello: 'z-350',
+    alimentazione: 'elettrico',
+}
+];
+
