@@ -67,3 +67,12 @@ const carElettrico = [ {
 }
 ];
 
+const carMetano = [
+    {
+        car: 'ferrari', 
+        modello: 'spider',
+        alimentazione: 'elettrico',
+    }
+];
+console.log(carBenzina, carDiesel, carElettrico, carMetano);
+
