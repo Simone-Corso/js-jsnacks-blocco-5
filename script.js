@@ -6,7 +6,7 @@
 
 const containerElement = document.querySelector('main > section.lista');
 
-const listaPersone = [
+const ListaPersone = [
     {
         name: 'Simone',
         lastname: 'gino',
@@ -32,7 +32,7 @@ const listaPersone = [
 
 ];
 
-const listaPersone = [listaPersone];
+const listaPersone = [ListaPersone];
 const lista = listaPersone.map((listaPersone) =>{
     return listaPersone * listaPersone;
 
