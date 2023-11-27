@@ -5,3 +5,14 @@
  
 //Infine stampa separatamente i 3 array.
 
+const containerElement = document.querySelector('main > section.car');
+
+const car = {
+    car: 'volkswagen', 
+    modello: 't-cross'
+    alimentazione: 'benzina'
+
+},
+{
+    
+}
