@@ -74,5 +74,9 @@ const carMetano = [
         alimentazione: 'elettrico',
     }
 ];
+
+const listaCar = document.getElementById('car');
+
+listaCar.innerHTML = "carBenzina, carDiesel, CarElettrico, CarMetano";
 console.log(carBenzina, carDiesel, carElettrico, carMetano);
 
