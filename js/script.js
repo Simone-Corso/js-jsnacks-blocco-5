@@ -7,7 +7,7 @@
 
 const containerElement = document.querySelector('main > section.car');
 
-const car = [ {
+const carBenzina = [ {
     car: 'volkswagen', 
     modello: 't-cross',
     alimentazione: 'benzina',
@@ -24,5 +24,25 @@ const car = [ {
     car: 'nissan', 
     modello: 'micra',
     alimentazione: 'benzina',
+}
+];
+
+const carDiesel = [ {
+    car: 'volkswagen', 
+    modello: 't-roc',
+    alimentazione: 'diesel',
+
+},
+
+{
+    car: 'ford', 
+    modello: 'kuga',
+    alimentazione: 'diesel',
+},
+
+{
+    car: 'nissan', 
+    modello: 'r-35',
+    alimentazione: 'diesel',
 }
 ];
