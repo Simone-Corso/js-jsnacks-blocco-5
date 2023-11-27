@@ -75,7 +75,11 @@ const carMetano = [
     }
 ];
 
+
+// andava inserito il filter, errore.
 const listaCar = document.getElementById('car');
+
+
 
 listaCar.innerHTML = "carBenzina, carDiesel, CarElettrico, CarMetano";
 console.log(carBenzina, carDiesel, carElettrico, carMetano);
