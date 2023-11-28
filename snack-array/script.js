@@ -8,6 +8,12 @@
 
 const tab = {
     tab: ["Facebook", "GitHub", "Gmail"],
-    activeTab: 0
+    activeTab: 1
+
+
 }
 console.log(tab);
+
+tab.splice(activeTab,1);
+
+//dovremmo eliminare quello che è attivo e pusharlo nell'array eliminato
