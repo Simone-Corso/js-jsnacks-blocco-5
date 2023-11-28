@@ -5,3 +5,9 @@
 //}
 //Il software deve guardare se c'è un social aperto ed eliminarlo dalle tab.
 //Nel caso la tab fosse attiva, deve attivare la successiva.
+
+const tab = {
+    tab: ["Facebook", "GitHub", "Gmail"],
+    activeTab: 0
+}
+console.log(tab);
