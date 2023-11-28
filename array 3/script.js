@@ -3,4 +3,9 @@
 //Generare numeri random al posto delle nelle proprietà:
 //punti fatti e falli subiti
 
-const arrayTeam = ['palla', 'ginocchiere','forza'];
+const arrayTeam = [name = gina,
+punti = 15,
+fallisubiti = 12
+];
+
+
