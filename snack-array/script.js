@@ -1,19 +1,8 @@
-//Un oggetto rappresenta una finestra di un browser e contiene due campi: un array di tab aperte e un numero che indica l'indice della tab aperta nell'array:
-//{
-//    "tab": ["Facebook", "GitHub", "Gmail"],
-  //  "activeTab": 0
-//}
-//Il software deve guardare se c'è un social aperto ed eliminarlo dalle tab.
-//Nel caso la tab fosse attiva, deve attivare la successiva.
-
-const tab = {
-    tab: ["Facebook", "GitHub", "Gmail"],
-    activeTab: 1
+//Scrivi una funzione che fonda due array (aventi lo stesso numero di elementi) prendendo alternativamente gli elementi da uno e dall'altro
+//es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 
 
-}
-console.log(tab);
+const primoArray = [a,b,c,d,e,f];
 
-tab.splice(activeTab,1);
+const secondoArray = [1,2,3,4,5,6];
 
-//dovremmo eliminare quello che è attivo e pusharlo nell'array eliminato
